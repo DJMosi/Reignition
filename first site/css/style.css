@@ -1,0 +1,432 @@
+
+*{
+    margin: 0;
+}
+
+
+/* Styling Navigation bar*/
+
+.navbar {
+    background-color: black;
+    height: 70px;   
+    width: 100%;
+    border-bottom: 1px solid white;    
+     
+}
+
+
+/* Styling Section1*/
+
+.bg {
+    
+    text-align: center;
+    background-size: cover;
+    background-image: url(../images/food-community-meno-22-percento.jpg);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: -2;
+}
+
+
+.opacity {
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+
+
+
+#heading {
+    
+    font-family:'Mr De Haviland', cursive;
+    color: #ffffff;
+}
+
+
+
+#intro {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+    
+}
+
+
+#common {
+    
+    padding-top: 170px;  
+}
+
+
+#line { 
+    
+    margin-right: 40px;
+    padding-top: 15px;
+    font-family: 'Montez', cursive;  
+    
+}
+
+#line > li {
+    
+    display: inline-block;
+}
+
+
+#orange {
+    color: orangered;
+/*    display: Inline-block;*/
+    padding-left: 12px; 
+
+}
+
+
+#green {
+    color: green;
+/*    display: Inline-block;*/
+    padding-left: 12px; 
+   
+}
+
+
+#yellow {
+    color: yellow;
+    display: Inline-block;
+    padding-left: 12px;
+   
+}
+
+
+#blue {
+    
+    color: blue;
+    display: Inline-block;
+    padding-left: 12px; 
+   
+}
+
+#believe {
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 2%;
+}
+
+
+#getstarted {
+    
+    border: 2px solid;
+    height: 40px;
+    width:150px;
+    margin: auto;
+/*    border-radius: 50px;*/
+    margin-top: 40px;
+    color: #ffffff;
+}
+
+
+#btn {
+    padding-top: 14px;
+    color: #ffffff;
+}
+
+
+
+
+/* Styling Section2*/
+
+
+.about {
+    background-color: #ffffff;
+/*    text-align: center;*/
+    height: 80%;
+    width: 100%; 
+    padding-top: 100px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+    
+
+.row {
+    text-align: center;
+/*    margin-left: 300px;*/
+/*    padding-left: 300px;*/
+    margin-top: 80px;
+    
+}
+
+#eater {
+    display: inline-block;
+/*    margin-left: 300px;*/
+/*    padding-left: 300px;*/
+/*    margin-top: 100px;*/
+}
+
+
+#cooker {
+    display: inline-block;
+    margin-left: 380px;
+    margin-right: 380px;
+/*    margin-left: 300px;*/
+/*    padding-left: 300px;       */
+/*    margin-top: 100px;*/
+}
+
+
+#supply {
+    display: inline-block;
+/*    margin-left: 300px;*/
+/*    padding-left:300px;*/
+/*    margin-top: 100px;*/
+}
+
+#allegro {
+    text-align: center;
+    
+}
+
+/* Styling section 3*/
+
+.tempo {
+    height: 70%;
+    width: 100%;
+    text-align: left;
+    padding-top: 120px;
+    padding-left: 165px;
+    
+}
+
+#inline {
+    
+    /* figure out how to make it look like a paragraph */
+}
+/* Styling section 3*/
+
+.foodie {
+    height: 50%;
+    width: 100%;
+    padding: 10%;
+    background-color: #ffffff;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    
+    
+}
+
+#img1 {
+    border: 2px solid gold;
+    height: 500px;
+    width: 500px;
+    background-size:cover;
+    
+    
+}
+
+
+.yes {
+    height: 150px;
+    width: 150px;
+    
+}
+
+#kitchwa {
+     text-align: center;
+    padding-right: 250px;
+    
+}
+
+#amaze {
+    text-align: center;
+    padding-right: 250px;
+    
+    
+}
+
+
+/* Styling confluence */
+
+.confluence {
+    height: 50%;
+    width: 100%;
+    background-color: darkslategrey;
+    
+    
+}
+
+
+#list {
+    padding-top: 30px;
+    padding-left: 8%;
+    
+    
+}
+
+
+#one {
+    display:inline-block;
+/*    margin-left: 5%;*/
+    
+}
+
+
+#two {
+    display:inline-block;
+    margin-left: 5%;  
+    font-family: font-family: 'Roboto', sans-serif;
+}
+
+
+#three {
+    display:inline-block;
+    margin-left: 5%;
+}
+
+
+#four {
+    display:inline-block;
+    margin-left: 5%;
+}
+
+
+#five{
+    display:inline-block;
+    margin-left: 5%;
+}
+
+
+#six {
+    display:inline-block;
+    margin-left: 5%;
+}
+
+
+/* fonts 
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Slabo 27px', serif;
+
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'PT Sans', sans-serif;
+
+    font-family: 'Open Sans Condensed', sans-serif;
+
+    font-family: 'Droid Sans', sans-serif;
+
+    font-family: 'Arimo', sans-serif;
+
+    font-family: 'Muli', sans-serif;
+
+    font-family: 'Dosis', sans-serif;
+
+    font-family: 'Oxygen', sans-serif;
+
+    font-family: 'Poiret One', cursive;
+
+    font-family: 'Alegreya Sans', sans-serif;
+
+    font-family: 'Abel', sans-serif;
+
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-family: 'Jaldi', sans-serif;
+
+    font-family: 'Pacifico', cursive;
+
+    font-family: 'Dancing Script', cursive;
+
+    font-family: 'Kaushan Script', cursive;
+
+    font-family: 'News Cycle', sans-serif;
+
+    font-family: 'Gudea', sans-serif;
+
+    font-family: 'Farsan', cursive;
+
+    font-family: 'Cantarell', sans-serif;
+
+    font-family: 'Great Vibes', cursive;
+
+    font-family: 'Bad Script', cursive;
+
+    font-family: 'Cormorant SC', serif;
+
+    font-family: 'Cormorant Unicase', serif;
+
+    font-family: 'Hind Madurai', sans-serif;
+
+    font-family: 'Sacramento', cursive;
+
+    font-family: 'Calligraffitti', cursive;
+
+    font-family: 'Alex Brush', cursive;
+
+    font-family: 'Marck Script', cursive;
+
+    font-family: 'Pinyon Script', cursive;
+
+    font-family: 'Allura', cursive;
+
+    font-family: 'Niconne', cursive;
+
+    font-family: 'Montez', cursive;
+
+    font-family: 'Parisienne', cursive;
+
+    font-family: 'Yesteryear', cursive;
+
+    font-family: 'Italianno', cursive;
+
+    font-family: 'Clicker Script', cursive;
+
+    font-family: 'Herr Von Muellerhoff', cursive;
+
+    font-family: 'La Belle Aurore', cursive;
+
+    font-family: 'Qwigley', cursive;
+
+    font-family: 'Stalemate', cursive;
+
+    font-family: 'Aguafina Script', cursive;
+
+    font-family: 'Dawning of a New Day', cursive;
+
+    font-family: 'Mr De Haviland', cursive;
+
+    font-family: 'Cedarville Cursive', cursive;
+
+    font-family: 'Rouge Script', cursive;
+
+    font-family: 'Dynalight', cursive;
+
+    font-family: 'League Script', cursive;
+
+    font-family: 'Bilbo', cursive;
+
+    font-family: 'Mrs Saint Delafield', cursive;
+
+    font-family: 'Dr Sugiyama', cursive;
+
+    font-family: 'Bubbler One', sans-serif;
+
+    font-family: 'Sarina', cursive;
+
+    font-family: 'Monsieur La Doulaise', cursive;
+
+    font-family: 'Meie Script', cursive;
+
+    font-family: 'Romanesco', cursive;
+
+    font-family: 'Princess Sofia', cursive;
+
+    font-family: 'Miss Fajardose', cursive;
+
+    font-family: 'Sevillana', cursive;
+
+    font-family: 'Peddana', serif;
+
+
+ */
